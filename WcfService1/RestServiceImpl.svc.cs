@@ -20,8 +20,8 @@ namespace WcfService1
         {
             int a=1;
             int b=2;
-            //int c = res.Cast<int>().First();
-            int d = b + 2;
+            int numero =int.Parse(res);
+            int d = numero + 2;
             return d;
 
         }
