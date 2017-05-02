@@ -21,7 +21,7 @@ namespace WcfService1
             int a=1;
             int b=2;
             //int c = res.Cast<int>().First();
-            int d = b * 2;
+            int d = b + 2;
             return d;
 
         }
